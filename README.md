@@ -32,4 +32,4 @@ The **QR Code Generator** is a simple, fast, and responsive web application buil
 
 ## 📸 Screenshot
 
-![QR Code Generator Screenshot]
+![QR Code Generator Screenshot](https://github.com/Sayanneogi007/QR-Code-Generator/blob/05f71edef63822f1412c1a3317ff2f8b63ae3e2e/Screenshot.png)

@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    background: linear-gradient(135deg, #494eea 0%, #262a2f 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    width: 400px;
+    padding: 32px 38px;
+    background: rgba(255,255,255,0.95);
+    border-radius: 18px;
+    box-shadow: 0 8px 32px rgba(73, 78, 234, 0.18);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    backdrop-filter: blur(2px);
+}
+
+.container p{
+    font-weight: 700;
+    font-size: 17px;
+    margin-bottom: 10px;
+    color: #494eea;
+    letter-spacing: 1px;
+}
+
+.container input{
+    width: 100%;
+    height: 48px;
+    border: 1.5px solid #494eea;
+    outline: none;
+    padding: 12px;
+    margin: 12px 0 22px;
+    border-radius: 7px;
+    font-size: 16px;
+    background: #f7f8ff;
+    transition: border 0.2s;
+}
+.container input:focus {
+    border: 2px solid #262a2f;
+}
+
+.container button{
+    width: 100%;
+    height: 48px;
+    background: linear-gradient(90deg, #494eea 60%, #262a2f 100%);
+    color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 7px;
+    box-shadow: 0 6px 18px rgba(73, 78, 234, 0.13);
+    cursor: pointer;
+    margin: 18px 0;
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 1px;
+    transition: background 0.2s, transform 0.1s;
+}
+.container button:hover {
+    background: linear-gradient(90deg, #262a2f 0%, #494eea 100%);
+    transform: translateY(-2px) scale(1.03);
+}
+
+#imgBox {
+    width: 210px;
+    max-height: 210px;
+    border-radius: 10px;
+    display: none;
+    margin: 22px auto;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #f2f2f2 60%, #e0e7ff 100%);
+    padding: 18px;
+    box-shadow: 0 6px 18px rgba(73, 78, 234, 0.10);
+    transition: box-shadow 0.2s;
+}
+
+#imgBox img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto;
+    background: #fff;
+    border-radius: 7px;
+    box-shadow: 0 2px 8px rgba(73, 78, 234, 0.08);
+    transition: box-shadow 0.2s;
+}
